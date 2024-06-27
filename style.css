@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: rgb(224, 209, 209);
+}
+.main{
+    height: 280px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(78, 0, 0);
+    box-shadow: 0 0 12px rgb(136, 10, 161);
+    border-radius : 13px;
+}
+
+.margin{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-size: 41px;
+    color: rgb(44, 2, 53);
+}
+
+input{
+    margin-top: 8px;
+    height: 18px;
+    width: 50px;
+}
+
+
+.input{
+    margin-inline-start: 50px;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: rgb(77, 11, 92);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+  
+.btn:hover {
+    background-color: rgb(162, 10, 192);
+    box-shadow: 0 0 10px rgb(136, 10, 161);
+}
+
+#counter{
+ margin-right: 20px;
+
+}   
+.Timing{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+hr{
+    width: 250px;
+    background-color: rgb(77, 11, 92);
+
+}
